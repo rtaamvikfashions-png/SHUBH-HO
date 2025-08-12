@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubh Ho Quotation Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-indigo': {
+                '50': '#f0f4ff',
+                '100': '#e0e8ff',
+                '200': '#c7d5ff',
+                '300': '#a3baff',
+                '400': '#7f9bff',
+                '500': '#607dff',
+                '600': '#4b63f2',
+                '700': '#3c52e0',
+                '800': '#3245b9',
+                '900': '#2d3d94',
+                '950': '#1f285c',
+              },
+              'brand-yellow': {
+                '500': '#f5b50a',
+                '400': '#f6c031',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.539.0",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-indigo-50">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
